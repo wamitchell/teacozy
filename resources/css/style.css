@@ -58,7 +58,7 @@ nav {
 }
 
 .title {
-    width: 100%;
+    width: 1200px;
     height: auto;
     display: block;
 }
@@ -69,12 +69,52 @@ nav {
 
 #featitems {
     display: flex;
-    width: 1000px;
-    height: auto;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tea {
     height: 200px;
     width: 300px;
+    margin: 10px;
+}
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#locations h2 {
+    background-color: transparent;
+    opacity: 1;
+    display: block;
+}
+
+#boxes {
+    background-color: transparent;
+    
+    max-width: 1000px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+footer {
+    height: 200px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
 }
